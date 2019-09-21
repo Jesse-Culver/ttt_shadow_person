@@ -27,7 +27,7 @@ SWEP.Primary.DefaultClip   = -1
 SWEP.Primary.Sound         = Sound( "Weapon_357.Single" )
 
 SWEP.Kind                  = WEAPON_EQUIP2
-SWEP.CanBuy                = { } -- only traitors can buy
+SWEP.CanBuy                = { ROLE_TRAITOR } -- only traitors can buy
 SWEP.LimitedStock          = true -- only buyable once
 
 SWEP.Tracer                = "AR2Tracer"
